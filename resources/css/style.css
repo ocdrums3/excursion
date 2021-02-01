@@ -10,13 +10,44 @@ header {
     text-align: center;
 }
 
-header p {
+header, .closing p {
     color: aquamarine;
     font-size: 16px;
+    font-family: Verdana;
+    text-align: center;
+    text-decoration: underline aquamarine;
 }
 
 video {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+h2 {
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+}
+
+.guide p {
+    color: white;
+    text-align: center;
+}
+
+embed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.closing embed {
+    margin-top: 50px;
+}
+
+footer {
+    color: gray;
+    text-align: right;
 }
